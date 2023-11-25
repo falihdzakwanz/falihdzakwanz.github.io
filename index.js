@@ -87,6 +87,8 @@ form.addEventListener("submit", validateForm);
     // Mendapatkan elemen-elemen untuk menampilkan error message
     let emailError = document.getElementById("email-error");
     let messageError = document.getElementById("message-error");
+
+    let messageSent = document.getElementById("message-sent");
   
     // Mendefinisikan variabel untuk menyimpan hasil validasi
     let isValid = true;
